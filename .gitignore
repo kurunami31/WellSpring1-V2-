@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Builds and generated caches
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+.turbo/
+
+# Runtime and test output
+*.log
+npm-debug.log*
+playwright-report/
+test-results/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Office lock files
+~$*
+
+# Local archives and scratch output
+*.zip
+.tmp/
+tmp/

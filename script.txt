@@ -1,0 +1,3 @@
+cd "D:\School\Ma'am Jessa\wellspring-pos"
+npm run dev --workspace=@wellspring/web -- --host 127.0.0.1
+http://127.0.0.1:5173

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/fonts/manrope-variable.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url("/fonts/dm-sans-variable.ttf") format("truetype");
+}
+
+:root {
+  /* Contemporary clinical sans pairing with a 1.250 major-third scale. */
+  --font-display: "Manrope", "Trebuchet MS", sans-serif;
+  --font-text: "DM Sans", "Segoe UI", sans-serif;
+  --step--1: 0.8rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.563rem;
+  --step-3: 1.953rem;
+  --step-4: 2.441rem;
+
+  /* Four-pixel spacing base. */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+
+  /* Ocean & mint: deep navy, clear teal, cool mist, and soft seafoam. */
+  --base: #f2f7fa;
+  --surface: #ffffff;
+  --surface-2: #e5f5f1;
+  --ink: #102a43;
+  --ink-2: #486581;
+  --ink-3: #6b8299;
+  --line: #cbdce5;
+  --accent: #087f8c;
+  --accent-hover: #066b78;
+  --accent-ink: #ffffff;
+  --positive: #087f8c;
+  --positive-bg: #ddf4ee;
+  --negative: #a12c2c;
+  --negative-bg: #fae9e7;
+  --warning: #855b13;
+  --warning-bg: #fbf1d8;
+  --info: #2563a8;
+  --info-bg: #e3f0fa;
+
+  /* shadcn semantic aliases. */
+  --background: 198 53% 96%;
+  --foreground: 209 61% 16%;
+  --card: 0 0% 100%;
+  --card-foreground: 209 61% 16%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 209 61% 16%;
+  --primary: 185 93% 29%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 165 49% 93%;
+  --secondary-foreground: 209 61% 16%;
+  --muted: 165 49% 93%;
+  --muted-foreground: 206 28% 40%;
+  --accent-hsl: 185 93% 29%;
+  --accent-foreground-hsl: 0 0% 100%;
+  --destructive: 0 57% 40%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 201 28% 85%;
+  --input: 199 34% 79%;
+  --ring: 185 93% 29%;
+
+  --radius: 0.75rem;
+  --border-default: 1px solid var(--line);
+  --shadow-near: 0 1px 2px rgb(16 42 67 / 0.05);
+  --shadow-far: 0 12px 32px rgb(16 42 67 / 0.10);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+  --dur-slow: 420ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Dashboard: soft clinical surfaces and restrained categorical accents. */
+  --dashboard-radius: 1.25rem;
+  --dashboard-line: #dce8ee;
+  --dashboard-shadow: 0 8px 28px rgb(16 42 67 / 0.065), 0 2px 6px rgb(16 42 67 / 0.025);
+  --dashboard-mint: #ddf4ee;
+  --dashboard-blue: #e3f0fa;
+  --dashboard-lavender: #eeebfa;
+  --dashboard-amber: #fbf1d8;
+  --dashboard-muted: #526f84;
+}
